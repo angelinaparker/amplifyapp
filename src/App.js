@@ -18,7 +18,7 @@ function App({signOut}) {
           <Image src={logo} className="App-logo" alt="logo" />
           <Heading level={1}> DO YOU SEE MY AMPLIFY APP</Heading>
       </Card>
-      <Button onClick={signout}>Sign Out</Button>
+      <Button onClick={signOut}>Sign Out</Button>
     </View>
   );
 }
